@@ -7,7 +7,56 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+        <header>
+            <nav class="flex justify-center items-center">
+                <div class="mt-10 relative flex justify-center items-center w-9/12 mb-10">
+                    <img class="w-48" src="image/payoo.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <!-- Login Form Section -->
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+
+              <div class="card w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Account Number</span>
+                    </label>
+                    <input value="0507054955" id="acc_number" type="number" placeholder="Enter the acc number" class="input input-bordered" required />
+                  </div>
+                  <div class="form-control">
+                    
+                    <label class="label">
+                      <span class="label-text">Account Password</span>
+                    </label>
+                    <input value="1234" id="acc_password" type="password" placeholder="Acc password" class="input input-bordered" required />
+                    <label class="label">
+                      <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                    </label>
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="login-btn" class="btn btn-neutral">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script/login.js"></script>
 </body>
 </html>
